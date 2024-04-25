@@ -14,22 +14,22 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "123458494"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 27776767  # integer value, dont use ""
+    API_HASH = "e7b0d8f7b037df9ff8b300816e90080b"
+    TOKEN = "6358179443:AAHL_kb4fkNXcrcg7W0j_P45xHIZ8y6pwCI"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = "12345abc6"
-    OWNER_ID = 1732814103  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Awesome_Prince"
-    SUPPORT_CHAT = "Besties_XD"  # Your own group for support, do not add the @
+    OWNER_ID = 6975932205 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Seiryuu19"
+    SUPPORT_CHAT = "FlameBloodsUnion"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001739802989
+        -1002129618165
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001739802989
+        -1002049125216
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://sdzssnho:yOsX_yr6nKBy4NeZWeI2hr8gmiUKsdOr@baasu.db.elephantsql.com/sdzssnho"  # needed for any database modules
     DB_URL = ""
     REDIS_URL = ""
     LOAD = []
@@ -42,7 +42,7 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "sudos")
+    DRAGONS = 1450535848 get_user_list("elevated_users.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
     DEV_USERS = get_user_list("elevated_users.json", "devs")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
@@ -95,21 +95,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "12345abcdefg23459"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1732814103  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Awesome_Prince"
-    SUPPORT_CHAT = "Besties_XD"  # Your own group for support, do not add the @
+    API_ID = 27776767  # integer value, dont use ""
+    API_HASH = "e7b0d8f7b037df9ff8b300816e90080b"
+    TOKEN = "6358179443:AAHL_kb4fkNXcrcg7W0j_P45xHIZ8y6pwCI"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 6975932205  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Seiryuu19"
+    SUPPORT_CHAT = "FlameBloodsUnion"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001739802989
+        -1002129618165
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001739802989
+        -1002049125216
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://sdzssnho:yOsX_yr6nKBy4NeZWeI2hr8gmiUKsdOr@baasu.db.elephantsql.com/sdzssnho"  # needed for any database modules
     DB_URL = ""
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
@@ -121,7 +121,7 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "sudos")
+    DRAGONS = 1450535848 get_user_list("elevated_users.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
     DEV_USERS = get_user_list("elevated_users.json", "devs")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
